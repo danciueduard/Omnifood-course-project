@@ -3,10 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Always include this line of code!!! -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/queries.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -25,18 +28,21 @@
   </head>
   <body>
     <header class="header">
-      <a href="#">
-        <img class="logo" alt="Omnifood logo" src="img/omnifood-logo.png" />
-        <nav class="main-nav">
-          <ul class="main-nav-list">
-            <li><a class="main-nav-link" href="#">How it works</a></li>
-            <li><a class="main-nav-link" href="#">Meals</a></li>
-            <li><a class="main-nav-link" href="#">Testimonials</a></li>
-            <li><a class="main-nav-link" href="#">Pricing</a></li>
-            <li><a class="main-nav-link nav-cta" href="#">Try for free</a></li>
-          </ul>
-        </nav>
-      </a>
+      <img class="logo" alt="Omnifood logo" src="img/omnifood-logo.png" />
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#">How it works</a></li>
+          <li><a class="main-nav-link" href="#">Meals</a></li>
+          <li><a class="main-nav-link" href="#">Testimonials</a></li>
+          <li><a class="main-nav-link" href="#">Pricing</a></li>
+          <li><a class="main-nav-link nav-cta" href="#">Try for free</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
     </header>
 
     <main>
@@ -681,9 +687,9 @@
       Project from -Build Responsive Real-World Websites with HTML and CSS -
       Teacher: Jonas Schmedtmann. Student: Danciu Eduard Vlăduţ. No rights
       reserved. <br />
-      <strong>Base version: </strong>Desktop only. Version not optimized for
-      mobile devices yet. <br />
-      No JavaScript added.
+      <strong>Version 1.1: </strong> Media queries added. Optimized for smaller
+      screens, tablets and mobile phones. <br />
+      No JavaScript added yet.
     </p>
   </body>
 </html>
